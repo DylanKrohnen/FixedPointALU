@@ -58,98 +58,124 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(170,550)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="SUB"/>
     </comp>
     <comp lib="0" loc="(170,600)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A0"/>
     </comp>
     <comp lib="0" loc="(170,620)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A1"/>
     </comp>
     <comp lib="0" loc="(170,640)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A2"/>
     </comp>
     <comp lib="0" loc="(170,660)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A3"/>
     </comp>
     <comp lib="0" loc="(170,680)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A4"/>
     </comp>
     <comp lib="0" loc="(170,700)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A5"/>
     </comp>
     <comp lib="0" loc="(170,720)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A6"/>
     </comp>
     <comp lib="0" loc="(170,740)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="A7"/>
     </comp>
     <comp lib="0" loc="(170,790)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B0"/>
     </comp>
     <comp lib="0" loc="(170,810)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B1"/>
     </comp>
     <comp lib="0" loc="(170,830)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B2"/>
     </comp>
     <comp lib="0" loc="(170,850)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B3"/>
     </comp>
     <comp lib="0" loc="(170,870)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B4"/>
     </comp>
     <comp lib="0" loc="(170,890)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B5"/>
     </comp>
     <comp lib="0" loc="(170,910)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B6"/>
     </comp>
     <comp lib="0" loc="(170,930)" name="Pin">
       <a name="appearance" val="NewPins"/>
+      <a name="label" val="B7"/>
     </comp>
     <comp lib="0" loc="(650,750)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z0"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,770)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z1"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,790)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z2"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,810)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z3"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,830)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z4"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,850)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z5"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,870)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z6"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(650,890)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="Z7"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(650,930)" name="Pin">
+    <comp lib="0" loc="(650,940)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="CARRY"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="1" loc="(370,1040)" name="XOR Gate"/>
@@ -232,86 +258,8 @@
     <comp lib="1" loc="(590,490)" name="XOR Gate"/>
     <comp lib="1" loc="(590,660)" name="XOR Gate"/>
     <comp lib="1" loc="(590,830)" name="XOR Gate"/>
-    <comp lib="8" loc="(110,555)" name="Text">
-      <a name="text" val="SUB"/>
-    </comp>
-    <comp lib="8" loc="(115,605)" name="Text">
-      <a name="text" val="A0"/>
-    </comp>
-    <comp lib="8" loc="(115,625)" name="Text">
-      <a name="text" val="A1"/>
-    </comp>
-    <comp lib="8" loc="(115,645)" name="Text">
-      <a name="text" val="A2"/>
-    </comp>
-    <comp lib="8" loc="(115,665)" name="Text">
-      <a name="text" val="A3"/>
-    </comp>
-    <comp lib="8" loc="(115,685)" name="Text">
-      <a name="text" val="A4"/>
-    </comp>
-    <comp lib="8" loc="(115,705)" name="Text">
-      <a name="text" val="A5"/>
-    </comp>
-    <comp lib="8" loc="(115,725)" name="Text">
-      <a name="text" val="A6"/>
-    </comp>
-    <comp lib="8" loc="(115,745)" name="Text">
-      <a name="text" val="A7"/>
-    </comp>
-    <comp lib="8" loc="(115,835)" name="Text">
-      <a name="text" val="B2"/>
-    </comp>
-    <comp lib="8" loc="(115,856)" name="Text">
-      <a name="text" val="B3"/>
-    </comp>
-    <comp lib="8" loc="(115,896)" name="Text">
-      <a name="text" val="B5"/>
-    </comp>
-    <comp lib="8" loc="(116,795)" name="Text">
-      <a name="text" val="B0"/>
-    </comp>
-    <comp lib="8" loc="(116,815)" name="Text">
-      <a name="text" val="B1"/>
-    </comp>
-    <comp lib="8" loc="(116,918)" name="Text">
-      <a name="text" val="B6"/>
-    </comp>
-    <comp lib="8" loc="(116,938)" name="Text">
-      <a name="text" val="B7"/>
-    </comp>
-    <comp lib="8" loc="(117,876)" name="Text">
-      <a name="text" val="B4"/>
-    </comp>
-    <comp lib="8" loc="(433,102)" name="Text">
+    <comp lib="8" loc="(430,100)" name="Text">
       <a name="text" val="8-Bit Adder/Subtractor"/>
-    </comp>
-    <comp lib="8" loc="(707,794)" name="Text">
-      <a name="text" val="C2"/>
-    </comp>
-    <comp lib="8" loc="(707,815)" name="Text">
-      <a name="text" val="C3"/>
-    </comp>
-    <comp lib="8" loc="(707,855)" name="Text">
-      <a name="text" val="C5"/>
-    </comp>
-    <comp lib="8" loc="(708,754)" name="Text">
-      <a name="text" val="C0"/>
-    </comp>
-    <comp lib="8" loc="(708,774)" name="Text">
-      <a name="text" val="C1"/>
-    </comp>
-    <comp lib="8" loc="(708,877)" name="Text">
-      <a name="text" val="C6"/>
-    </comp>
-    <comp lib="8" loc="(708,897)" name="Text">
-      <a name="text" val="C7"/>
-    </comp>
-    <comp lib="8" loc="(709,835)" name="Text">
-      <a name="text" val="C4"/>
-    </comp>
-    <comp lib="8" loc="(740,936)" name="Text">
-      <a name="text" val="OVERFLOW"/>
     </comp>
     <wire from="(170,550)" to="(300,550)"/>
     <wire from="(170,600)" to="(190,600)"/>
@@ -528,7 +476,7 @@
     <wire from="(630,750)" to="(650,750)"/>
     <wire from="(630,890)" to="(630,1340)"/>
     <wire from="(630,890)" to="(650,890)"/>
-    <wire from="(640,930)" to="(640,1490)"/>
-    <wire from="(640,930)" to="(650,930)"/>
+    <wire from="(640,940)" to="(640,1490)"/>
+    <wire from="(640,940)" to="(650,940)"/>
   </circuit>
 </project>
