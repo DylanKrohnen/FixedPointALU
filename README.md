@@ -34,3 +34,5 @@ AND
 Takes 2 8-bit binary numbers from pins A0-A7 and B0-B7 and ouputs the AND of the 2 numbers on pins Z0-Z7 
 
 
+DIVIDE
+Takes 1 8-bit binary number from pins A0-A7 and 1 4-bit binary number  from pins B0-B3 and outputs the division of the 2 numbers on pins Z0-Z3 for result and pins Z4-Z7 for remainder.
