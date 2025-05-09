@@ -1,38 +1,67 @@
-# LogisimALU
-Wow look at all this documentation about the ALU.
+# Fixed Point ALU
+## Setup Instructions
+- Install the latest version of Logisim Evolution: https://github.com/logisim-evolution/logisim-evolution
+- Download the ALU file: `FixedPointALU.circ`
+- Open `FixedPointALU.circ` in Logisim Evolution.
 
+## Operation Codes
+- AND = 000
+- OR = 010
+- XOR = 100
+- NOT = 110
+- ADD = 001
+- SUB = 011
+- MUL = 101
+- DIV = 111
+  
+## Pin Diagram
+![Image](https://github.com/user-attachments/assets/8bf06ee5-03ee-4c2f-b951-f682424d2907)<br/>
+**Input Pins**
+- A0-A7 = 1st 8-bit, 2s compliment binary number.
+- B0-B7 = 2nd 8-bit, 2s compliment binary number.
+- C0-C2 = Control pins to select operation.
+  
+**Output Pins**
+  - Y0-Y7 = ALU result.
+  - OVERFLOW = Triggers if an overflow error has occurred.
 
-INPUT PINS
-A0-A7 Used for the 1st 8-bit binary number.
-B0-B7 Used for the 2nd 8-bit binary number.
-S0-S3 Used to select the output from the ALU.
-SUB Used to select if you want to add or subtract.
-CLOCK Used as the clock for the ALU.
+## ALU Functions
+**AND**\
+Inputs = A0-A7, B0-B7\
+Output = Y0-Y7\
+Function = Outputs a value of 1 (true) for Y[i] if both A[i] and B[i] are 1 otherwise it outputs a value of 0 (false).
 
-OUTPUT PINS
-Z0-Z7 Used to output the result from the ALU as a 8-bit binary number.
-COUT - Used to idicate if the ALU has had an overflow of output bits
+**OR**\
+Inputs = A0-A7, B0-B7\
+Output = Y0-Y7\
+Function = Outputs a value of 1 (true) for Y[i] if either or both A[i] and B[i] are 1 otherwise it outputs a value of 0 (false).
 
-VALID INPUTS FOR ALU SELECTION ON S0-S3 PINS
-000 = NOT
-010 = AND
-100 = OR
-110 = XOR
-001 = ADD/SUBTRACT
-011 = MULTIPLY
-101 = DIVIDE
+**XOR**\
+Inputs = A0-A7, B0-B7\
+Output = Y0-Y7\
+Function = Outputs a value of 1 (true) for Y[i] if either A[i] or B[i] are 1 otherwise it outputs a value of 0 (false).
 
-VALID INPUTS FOR ADD/SUBTRACT SELECTION ON SUB PIN
-0 = ADD
-1 = SUBTRACT
+**NOT**\
+Input = A0-A7\
+Output = Y0-Y7\
+Function = Outputs a value of 1 (true) for Y[i] if A[i] is 0 otherwise it outputs a value of 0 (false).
 
+**ADD**\
+Inputs = A0-A7, B0-B7\
+Outputs = Y0-Y7, OVERFLOW\
+Function = Adds together 2 8-bit, 2s compliment, binary numbers and outputs the result as an 8-bit, 2s compliment, binary number. If the result is not between -128 and 127 then the overflow error is triggered and the result is truncated to the first 8 bits.
 
-NOT
-Takes 1 8-bit binary number from pins A0-A7 and outputs the NOT of it on pins Z0-Z7
+**SUB**\
+Inputs = A0-A7, B0-B7\
+Outputs = Y0-Y7, OVERFLOW\
+Function = Subtracts 2 8-bit, 2s compliment, binary numbers and outputs the result as an 8-bit, 2s compliment, binary number. If the result is not between -128 and 127 then the overflow error is triggered and the result is truncated to the first 8 bits.
 
-AND
-Takes 2 8-bit binary numbers from pins A0-A7 and B0-B7 and ouputs the AND of the 2 numbers on pins Z0-Z7 
+**MUL**\
+Inputs = A0-A7, B0-B7\
+Outputs = Y0-Y7, OVERFLOW\
+Function = Multiplies 2 8-bit, 2s compliment, binary numbers and outputs the result as an 8-bit, 2s compliment, binary number. If the result is not between -128 and 127 then the overflow error is triggered and the result is truncated to the first 8 bits.
 
-
-DIVIDE
-Takes 1 8-bit binary number from pins A0-A7 and 1 4-bit binary number  from pins B0-B3 and outputs the division of the 2 numbers on pins Z0-Z3 for result and pins Z4-Z7 for remainder.
+**DIV**\
+Inputs = A0-A7, B0-B7\
+Outputs = Y0-Y7, OVERFLOW\
+Function = PLACEHOLDER
