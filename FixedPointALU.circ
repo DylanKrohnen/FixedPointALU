@@ -2389,12 +2389,6 @@
       <a name="facing" val="west"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(1490,2750)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="north"/>
-      <a name="label" val="OVERFLOW"/>
-      <a name="output" val="true"/>
-    </comp>
     <comp lib="0" loc="(1510,2200)" name="Constant">
       <a name="facing" val="west"/>
       <a name="value" val="0x0"/>
@@ -2458,6 +2452,12 @@
     <comp lib="0" loc="(1690,2440)" name="Constant">
       <a name="facing" val="west"/>
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1690,3570)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="north"/>
+      <a name="label" val="OVERFLOW"/>
+      <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(1750,2520)" name="Constant">
       <a name="facing" val="west"/>
@@ -3322,7 +3322,8 @@
     <wire from="(1490,2490)" to="(1490,2500)"/>
     <wire from="(1490,2490)" to="(1530,2490)"/>
     <wire from="(1490,2630)" to="(1490,2690)"/>
-    <wire from="(1490,2740)" to="(1490,2750)"/>
+    <wire from="(1490,2740)" to="(1490,2830)"/>
+    <wire from="(1490,2830)" to="(1690,2830)"/>
     <wire from="(1500,2170)" to="(1500,2250)"/>
     <wire from="(1500,2250)" to="(1520,2250)"/>
     <wire from="(1500,2300)" to="(1500,2320)"/>
@@ -3422,6 +3423,7 @@
     <wire from="(1680,2540)" to="(1680,2560)"/>
     <wire from="(1680,2540)" to="(1690,2540)"/>
     <wire from="(1690,2570)" to="(1690,2580)"/>
+    <wire from="(1690,2830)" to="(1690,3570)"/>
     <wire from="(1700,2490)" to="(1700,2500)"/>
     <wire from="(1700,2490)" to="(1740,2490)"/>
     <wire from="(1700,2630)" to="(1700,2670)"/>
