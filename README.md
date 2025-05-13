@@ -65,3 +65,16 @@ Function = Multiplies 2 8-bit, 2s compliment, binary numbers and outputs the res
 Inputs = A0-A7, B0-B7\
 Outputs = Y0-Y7, OVERFLOW\
 Function = Divides 2 8-bit, 2s compliment, binary numbers and outputs the result as an 8-bit, 2s compliment, binary number. If the result has a remainder then the overflow error is triggered.
+
+## ALU Testing
+The ALU is provided with multiple vector test files which can be run directly inside Logisim Evolution by going to `Simulate > Test Vector` and opening one of the premade test files. Ensure that you have selected the correct circuit by double clicking on it before running its corrasponding test. A magnifying glass should indicate the currently selected circuit.
+
+List of test files and where they should be used:
+- `ALUTesting.txt` file should be used with either the `ALU` circuit or the `ALU_Test` circuit.
+- `LogicTesting.txt` file should be used with the `ALU_Logic` circuit.
+- `AdderSubtractor.txt` file should be used with the `ARITHMETIC_AdderSubtractor` circuit.
+- `MultiplierTesting.txt` file should be used with the `ARITHMETIC_Multiplier` circuit.
+- `DividerTesting.txt` file should be used with the `ARITHMETIC_Divider` circuit.
+
+## Contributions 
+ALU and testing files created by Lewis Duale and Dylan Krohnen.
