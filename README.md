@@ -64,4 +64,4 @@ Function = Multiplies 2 8-bit, 2s compliment, binary numbers and outputs the res
 **DIV**\
 Inputs = A0-A7, B0-B7\
 Outputs = Y0-Y7, OVERFLOW\
-Function = PLACEHOLDER
+Function = Divides 2 8-bit, 2s compliment, binary numbers and outputs the result as an 8-bit, 2s compliment, binary number. If the result has a remainder then the overflow error is triggered.
